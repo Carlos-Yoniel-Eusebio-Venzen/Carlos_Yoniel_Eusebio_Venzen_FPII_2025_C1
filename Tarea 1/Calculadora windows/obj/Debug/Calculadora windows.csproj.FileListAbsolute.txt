@@ -1,0 +1,10 @@
+C:\Users\Yoniel\Desktop\Equipos\FP2\Tarea 1\Calculadora windows\bin\Debug\Calculadora windows.exe.config
+C:\Users\Yoniel\Desktop\Equipos\FP2\Tarea 1\Calculadora windows\bin\Debug\Calculadora windows.exe
+C:\Users\Yoniel\Desktop\Equipos\FP2\Tarea 1\Calculadora windows\bin\Debug\Calculadora windows.pdb
+C:\Users\Yoniel\Desktop\Equipos\FP2\Tarea 1\Calculadora windows\obj\Debug\Calculadora windows.csproj.AssemblyReference.cache
+C:\Users\Yoniel\Desktop\Equipos\FP2\Tarea 1\Calculadora windows\obj\Debug\Calculadora_windows.Form1.resources
+C:\Users\Yoniel\Desktop\Equipos\FP2\Tarea 1\Calculadora windows\obj\Debug\Calculadora_windows.Properties.Resources.resources
+C:\Users\Yoniel\Desktop\Equipos\FP2\Tarea 1\Calculadora windows\obj\Debug\Calculadora windows.csproj.GenerateResource.cache
+C:\Users\Yoniel\Desktop\Equipos\FP2\Tarea 1\Calculadora windows\obj\Debug\Calculadora windows.csproj.CoreCompileInputs.cache
+C:\Users\Yoniel\Desktop\Equipos\FP2\Tarea 1\Calculadora windows\obj\Debug\Calculadora windows.exe
+C:\Users\Yoniel\Desktop\Equipos\FP2\Tarea 1\Calculadora windows\obj\Debug\Calculadora windows.pdb
