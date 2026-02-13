@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="Loteria.csproj" Id="bc6c7bd0-240b-4810-b587-a4e03056bee4">
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
+</Solution>
