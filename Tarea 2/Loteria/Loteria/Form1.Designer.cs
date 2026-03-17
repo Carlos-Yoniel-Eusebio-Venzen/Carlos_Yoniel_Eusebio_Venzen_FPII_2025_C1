@@ -1,4 +1,4 @@
-﻿namespace Loteria
+﻿namespace loteria
 {
     partial class Form1
     {
@@ -28,71 +28,109 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblNum1 = new System.Windows.Forms.Label();
-            this.lblNum2 = new System.Windows.Forms.Label();
-            this.lblNum3 = new System.Windows.Forms.Label();
-            this.Boton = new System.Windows.Forms.Button();
+            this.boton = new System.Windows.Forms.Button();
+            this.lblnumero1 = new System.Windows.Forms.Label();
+            this.lblnumero2 = new System.Windows.Forms.Label();
+            this.lblnumero3 = new System.Windows.Forms.Label();
+            this.tablaJugadas = new System.Windows.Forms.DataGridView();
+            this.lblJugador = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.tablaJugadas)).BeginInit();
             this.SuspendLayout();
             // 
-            // lblNum1
+            // boton
             // 
-            this.lblNum1.AutoSize = true;
-            this.lblNum1.Location = new System.Drawing.Point(12, 9);
-            this.lblNum1.Name = "lblNum1";
-            this.lblNum1.Size = new System.Drawing.Size(48, 13);
-            this.lblNum1.TabIndex = 0;
-            this.lblNum1.Text = "numero1";
+            this.boton.Location = new System.Drawing.Point(146, 161);
+            this.boton.Name = "boton";
+            this.boton.Size = new System.Drawing.Size(270, 142);
+            this.boton.TabIndex = 0;
+            this.boton.Text = "Jugar";
+            this.boton.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.boton.UseVisualStyleBackColor = true;
+            this.boton.Click += new System.EventHandler(this.boton_Click);
             // 
-            // lblNum2
+            // lblnumero1
             // 
-            this.lblNum2.AutoSize = true;
-            this.lblNum2.Location = new System.Drawing.Point(82, 9);
-            this.lblNum2.Name = "lblNum2";
-            this.lblNum2.Size = new System.Drawing.Size(48, 13);
-            this.lblNum2.TabIndex = 1;
-            this.lblNum2.Text = "numero2";
+            this.lblnumero1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblnumero1.Location = new System.Drawing.Point(12, 45);
+            this.lblnumero1.MaximumSize = new System.Drawing.Size(120, 70);
+            this.lblnumero1.MinimumSize = new System.Drawing.Size(120, 70);
+            this.lblnumero1.Name = "lblnumero1";
+            this.lblnumero1.Size = new System.Drawing.Size(120, 70);
+            this.lblnumero1.TabIndex = 1;
+            this.lblnumero1.Text = "lblnumero1";
+            this.lblnumero1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblNum3
+            // lblnumero2
             // 
-            this.lblNum3.AutoSize = true;
-            this.lblNum3.Location = new System.Drawing.Point(154, 9);
-            this.lblNum3.Name = "lblNum3";
-            this.lblNum3.Size = new System.Drawing.Size(48, 13);
-            this.lblNum3.TabIndex = 2;
-            this.lblNum3.Text = "numero3";
+            this.lblnumero2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblnumero2.Location = new System.Drawing.Point(219, 45);
+            this.lblnumero2.MaximumSize = new System.Drawing.Size(120, 70);
+            this.lblnumero2.MinimumSize = new System.Drawing.Size(120, 70);
+            this.lblnumero2.Name = "lblnumero2";
+            this.lblnumero2.Size = new System.Drawing.Size(120, 70);
+            this.lblnumero2.TabIndex = 1;
+            this.lblnumero2.Text = "lblnumero2";
+            this.lblnumero2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Boton
+            // lblnumero3
             // 
-            this.Boton.Location = new System.Drawing.Point(60, 108);
-            this.Boton.Name = "Boton";
-            this.Boton.Size = new System.Drawing.Size(106, 59);
-            this.Boton.TabIndex = 3;
-            this.Boton.Text = "Jugar";
-            this.Boton.UseVisualStyleBackColor = true;
-            this.Boton.Click += new System.EventHandler(this.Boton_Click);
+            this.lblnumero3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblnumero3.Location = new System.Drawing.Point(417, 54);
+            this.lblnumero3.MaximumSize = new System.Drawing.Size(120, 70);
+            this.lblnumero3.MinimumSize = new System.Drawing.Size(120, 70);
+            this.lblnumero3.Name = "lblnumero3";
+            this.lblnumero3.Size = new System.Drawing.Size(120, 70);
+            this.lblnumero3.TabIndex = 1;
+            this.lblnumero3.Text = "lblnumero3";
+            this.lblnumero3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tablaJugadas
+            // 
+            this.tablaJugadas.AllowUserToResizeRows = false;
+            this.tablaJugadas.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.tablaJugadas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tablaJugadas.Location = new System.Drawing.Point(-2, 416);
+            this.tablaJugadas.Name = "tablaJugadas";
+            this.tablaJugadas.ReadOnly = true;
+            this.tablaJugadas.Size = new System.Drawing.Size(561, 150);
+            this.tablaJugadas.TabIndex = 2;
+            // 
+            // lblJugador
+            // 
+            this.lblJugador.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblJugador.Location = new System.Drawing.Point(243, 324);
+            this.lblJugador.Name = "lblJugador";
+            this.lblJugador.Size = new System.Drawing.Size(85, 21);
+            this.lblJugador.TabIndex = 3;
+            this.lblJugador.Text = "IDJugador";
+            this.lblJugador.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(240, 277);
-            this.Controls.Add(this.Boton);
-            this.Controls.Add(this.lblNum3);
-            this.Controls.Add(this.lblNum2);
-            this.Controls.Add(this.lblNum1);
+            this.ClientSize = new System.Drawing.Size(560, 567);
+            this.Controls.Add(this.lblJugador);
+            this.Controls.Add(this.tablaJugadas);
+            this.Controls.Add(this.lblnumero3);
+            this.Controls.Add(this.lblnumero2);
+            this.Controls.Add(this.lblnumero1);
+            this.Controls.Add(this.boton);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.tablaJugadas)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label lblNum1;
-        private System.Windows.Forms.Label lblNum2;
-        private System.Windows.Forms.Label lblNum3;
-        private System.Windows.Forms.Button Boton;
+        private System.Windows.Forms.Button boton;
+        private System.Windows.Forms.Label lblnumero1;
+        private System.Windows.Forms.Label lblnumero2;
+        private System.Windows.Forms.DataGridView tablaJugadas;
+        private System.Windows.Forms.Label lblJugador;
+        protected System.Windows.Forms.Label lblnumero3;
     }
 }
 

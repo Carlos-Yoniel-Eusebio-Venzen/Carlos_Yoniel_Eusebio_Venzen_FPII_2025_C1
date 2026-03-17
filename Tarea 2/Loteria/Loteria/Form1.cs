@@ -1,69 +1,57 @@
 ﻿using System;
-using System.Data.SQLite;
+using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace Loteria
+namespace loteria
 {
-
+    
     public partial class Form1 : Form
     {
         Random random = new Random();
-        string connectionString = "Data Source=loteria.db";
+        int idJugador = 1;
+
+        class Jugada
+        {
+            public int JugadorID { get; set; }
+            public int Numero1 { get; set; }
+            public int Numero2 { get; set; }
+            public int Numero3 { get; set; }
+        }
+
+        List<Jugada> historial = new List<Jugada>();
+
         public Form1()
         {
             InitializeComponent();
-            Base_De_Datos();
+            tablaJugadas.DataSource = historial;
         }
 
-        void Base_De_Datos()
+        private void boton_Click(object sender, EventArgs e)
         {
-            using (var connection = new SQLiteConnection(connectionString))
+            int num1 = random.Next(0, 100);
+            int num2 = random.Next(0, 100);
+            int num3 = random.Next(0, 100);
+
+            lblnumero1.Text = num1.ToString();
+            lblnumero2.Text = num2.ToString();
+            lblnumero3.Text = num3.ToString();
+
+            lblJugador.Text = "Jugador ID: " + idJugador;
+
+            Jugada nueva = new Jugada()
             {
-                connection.Open();
+                JugadorID = idJugador,
+                Numero1 = num1,
+                Numero2 = num2,
+                Numero3 = num3
+            };
 
-                var command = connection.CreateCommand();
-                command.CommandText =
-                @"CREATE TABLE IF NOT EXISTS Numeros (
-                    Id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    Numero1 INTEGER,
-                    Numero2 INTEGER,
-                    Numero3 INTEGER
-            );";
-                command.ExecuteNonQuery();
-            }
-        }
+            historial.Add(nueva);
 
-        private void Boton_Click(object sender, EventArgs e)
-        {
-            int n1 = random.Next(0, 10);
-            int n2 = random.Next(0, 10);
-            int n3 = random.Next(0, 10);
+            tablaJugadas.DataSource = null;
+            tablaJugadas.DataSource = historial;
 
-            lblNum1.Text = n1.ToString();
-            lblNum2.Text = n2.ToString();
-            lblNum3.Text = n3.ToString();
-
-            Guardar_Numeros(n1, n2, n3);
-
-        }
-
-        void Guardar_Numeros(int n1, int n2, int n3)
-        {
-            using (var connection = new SQLiteConnection(connectionString))
-            {
-                connection.Open();
-
-                var command = connection.CreateCommand();
-                command.CommandText =
-                @"INSERT INTO Numeros (Numero1, Numero2, Numero3)
-                    VALUES ($n1, $n2, $n3);";
-
-                command.Parameters.AddWithValue("$n1", n1);
-                command.Parameters.AddWithValue("$n2", n2);
-                command.Parameters.AddWithValue("$n3", n3);
-
-                command.ExecuteNonQuery();
-            }
+            idJugador++;
         }
     }
 }

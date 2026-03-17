@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Loteria.Properties
+namespace loteria.Properties
 {
 
 
