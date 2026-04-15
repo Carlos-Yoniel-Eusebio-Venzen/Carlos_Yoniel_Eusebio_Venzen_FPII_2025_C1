@@ -1,0 +1,18 @@
+C:\Users\chico\Desktop\programas\loteria\loteria\obj\Debug\loteria.csproj.AssemblyReference.cache
+C:\Users\chico\Desktop\programas\loteria\loteria\obj\Debug\loteria.Properties.Resources.resources
+C:\Users\chico\Desktop\programas\loteria\loteria\obj\Debug\loteria.csproj.GenerateResource.cache
+C:\Users\chico\Desktop\programas\loteria\loteria\obj\Debug\loteria.csproj.CoreCompileInputs.cache
+C:\Users\chico\Desktop\programas\loteria\loteria\bin\Debug\loteria.exe.config
+C:\Users\chico\Desktop\programas\loteria\loteria\bin\Debug\loteria.exe
+C:\Users\chico\Desktop\programas\loteria\loteria\bin\Debug\loteria.pdb
+C:\Users\chico\Desktop\programas\loteria\loteria\obj\Debug\loteria.Form1.resources
+C:\Users\chico\Desktop\programas\loteria\loteria\obj\Debug\loteria.exe
+C:\Users\chico\Desktop\programas\loteria\loteria\obj\Debug\loteria.pdb
+C:\Users\chico\Desktop\programas\loteria\loteria\obj\Debug\loteria.Form2.resources
+C:\Users\chico\Desktop\equipos\FP2\Tarea 4\loteria\loteria\obj\Debug\loteria.csproj.AssemblyReference.cache
+C:\Users\chico\Desktop\equipos\FP2\Tarea 4\loteria\loteria\obj\Debug\loteria.Form1.resources
+C:\Users\chico\Desktop\equipos\FP2\Tarea 4\loteria\loteria\obj\Debug\loteria.Properties.Resources.resources
+C:\Users\chico\Desktop\equipos\FP2\Tarea 4\loteria\loteria\obj\Debug\loteria.csproj.GenerateResource.cache
+C:\Users\chico\Desktop\equipos\FP2\Tarea 4\loteria\loteria\obj\Debug\loteria.csproj.CoreCompileInputs.cache
+C:\Users\chico\Desktop\equipos\FP2\Tarea 4\loteria\loteria\obj\Debug\loteria.exe
+C:\Users\chico\Desktop\equipos\FP2\Tarea 4\loteria\loteria\obj\Debug\loteria.pdb

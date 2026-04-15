@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chico\\Desktop\\equipos\\FP2\\Tarea 4\\loteria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BE37A8-BDF7-469C-BAFC-51B325AEEBFF}|loteria\\loteria.csproj|c:\\users\\chico\\desktop\\equipos\\fp2\\tarea 4\\loteria\\loteria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BE37A8-BDF7-469C-BAFC-51B325AEEBFF}|loteria\\loteria.csproj|solutionrelative:loteria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BE37A8-BDF7-469C-BAFC-51B325AEEBFF}|loteria\\loteria.csproj|C:\\Users\\chico\\Desktop\\equipos\\FP2\\Tarea 4\\loteria\\loteria\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A5BE37A8-BDF7-469C-BAFC-51B325AEEBFF}|loteria\\loteria.csproj|solutionrelative:loteria\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BE37A8-BDF7-469C-BAFC-51B325AEEBFF}|loteria\\loteria.csproj|C:\\Users\\chico\\Desktop\\equipos\\FP2\\Tarea 4\\loteria\\loteria\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BE37A8-BDF7-469C-BAFC-51B325AEEBFF}|loteria\\loteria.csproj|solutionrelative:loteria\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BE37A8-BDF7-469C-BAFC-51B325AEEBFF}|loteria\\loteria.csproj|C:\\Users\\chico\\Desktop\\equipos\\FP2\\Tarea 4\\loteria\\loteria\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BE37A8-BDF7-469C-BAFC-51B325AEEBFF}|loteria\\loteria.csproj|solutionrelative:loteria\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BE37A8-BDF7-469C-BAFC-51B325AEEBFF}|loteria\\loteria.csproj|C:\\Users\\chico\\Desktop\\equipos\\FP2\\Tarea 4\\loteria\\loteria\\modelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BE37A8-BDF7-469C-BAFC-51B325AEEBFF}|loteria\\loteria.csproj|solutionrelative:loteria\\modelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\chico\\Desktop\\equipos\\FP2\\Tarea 4\\loteria\\loteria\\Form2.Designer.cs",
+              "RelativeDocumentMoniker": "loteria\\Form2.Designer.cs",
+              "ToolTip": "C:\\Users\\chico\\Desktop\\equipos\\FP2\\Tarea 4\\loteria\\loteria\\Form2.Designer.cs",
+              "RelativeToolTip": "loteria\\Form2.Designer.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAowCwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T04:05:20.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\chico\\Desktop\\equipos\\FP2\\Tarea 4\\loteria\\loteria\\Program.cs",
+              "RelativeDocumentMoniker": "loteria\\Program.cs",
+              "ToolTip": "C:\\Users\\chico\\Desktop\\equipos\\FP2\\Tarea 4\\loteria\\loteria\\Program.cs*",
+              "RelativeToolTip": "loteria\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T20:37:15.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\chico\\Desktop\\equipos\\FP2\\Tarea 4\\loteria\\loteria\\Form2.cs",
+              "RelativeDocumentMoniker": "loteria\\Form2.cs",
+              "ToolTip": "C:\\Users\\chico\\Desktop\\equipos\\FP2\\Tarea 4\\loteria\\loteria\\Form2.cs",
+              "RelativeToolTip": "loteria\\Form2.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAwwIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T18:45:06.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Modelos.cs",
+              "DocumentMoniker": "C:\\Users\\chico\\Desktop\\equipos\\FP2\\Tarea 4\\loteria\\loteria\\Modelos.cs",
+              "RelativeDocumentMoniker": "loteria\\Modelos.cs",
+              "ToolTip": "C:\\Users\\chico\\Desktop\\equipos\\FP2\\Tarea 4\\loteria\\loteria\\Modelos.cs",
+              "RelativeToolTip": "loteria\\Modelos.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T16:49:41.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\chico\\Desktop\\equipos\\FP2\\Tarea 4\\loteria\\loteria\\Form2.cs",
+              "RelativeDocumentMoniker": "loteria\\Form2.cs",
+              "ToolTip": "C:\\Users\\chico\\Desktop\\equipos\\FP2\\Tarea 4\\loteria\\loteria\\Form2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "loteria\\Form2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T18:42:41.943Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
